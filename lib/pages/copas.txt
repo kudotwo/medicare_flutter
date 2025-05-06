@@ -1,0 +1,17 @@
+Text(
+                        medicine[index].name,
+                        style: TextStyle(
+                          fontSize: 12,
+                          fontFamily: 'WorkSans',
+                          fontWeight: FontWeight.w200,
+                        ),
+                      ),
+                      SizedBox(height: 10),
+                      Text(
+                        medicine[index].price,
+                        style: TextStyle(
+                          fontSize: 18,
+                          fontFamily: 'WorkSans',
+                          fontWeight: FontWeight.w200,
+                        ),
+                      ),
